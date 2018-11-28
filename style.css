@@ -7,6 +7,7 @@
 .mainfooter {
 	padding: 0;
 	margin: 0;
+	padding-top: 20px;
 }
 .footer {
 	padding: 0;
@@ -17,4 +18,14 @@
 }
 .mapa {
 	padding: 0;
+}
+@media (min-width: 559px) {
+	.twitter-timeline {
+	max-height: 600px;
+	}
+}
+@media (max-width: 558px) {
+	.twitter-timeline {
+	max-height: 800px;
+	}
 }

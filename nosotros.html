@@ -10,20 +10,20 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="style.css">
 </head>
-<body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">Fundación Niños y Cáncer</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="navbar-nav">
-				<a class="nav-item nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link active" href="#">Nosotros</a>
-				<a class="nav-item nav-link" href="#">Noticias</a>
-			</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-info text-white">
+	<a class="navbar-brand" href="#">Fundación Niños y Cáncer</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="navbar-nav">
+			<a class="nav-item nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+			<a class="nav-item nav-link active" href="nosotros.html">Nosotros</a>
+			<a class="nav-item nav-link" href="noticias.html">Noticias</a>
 		</div>
-	</nav>
+	</div>
+</nav>
+<body>
 	<div class="jumbotron content1 text-center">
 		<div class="container">
 			<div class="container marketing">
@@ -48,15 +48,13 @@
 		</div>
 	</div>
 	<div class="jumbotron content2">
-		<hr class="mb-4">
 		<div class="container">
 			<div class="container marketing">
 				<div class="row">
 					<hr class="featurette-divider">
-
 					<div class="row featurette">
 						<div class="col-md-7">
-							<h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+							<h2 class="featurette-heading">Ayudanos a ayudar<span class="text-muted"><br>ven y vamos a conocernos.</span></h2>
 							<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 						</div>
 						<div class="col-md-5">
@@ -65,52 +63,45 @@
 					</div>
 				</div>
 			</div>
-		<div class="col-md-12 order-md-1">
-			<form class="needs-validation" novalidate>
-								
-				<hr class="mb-4">
+			<div class="col-md-12 order-md-1">
+				<form class="needs-validation" novalidate>
 
-				<h4 class="mb-3">¿Quieres decirnos algo?</h4>
+					<h4 class="mb-3">¿Quieres decirnos algo?</h4>
 
-				<div class="row">
-					<div class="col-md-6 mb-3">
-						<label for="cc-name">Name on card</label>
-						<input type="text" class="form-control" id="cc-name" placeholder="" required>
-						<small class="text-muted">Full name as displayed on card</small>
-						<div class="invalid-feedback">
-							Name on card is required
+					<div class="row">
+						<div class="col-md-6 mb-3">
+							<label for="cc-name">Nombre</label>
+							<input type="text" class="form-control" id="cc-name" placeholder="" required>
+						</div>
+						<div class="col-md-6 mb-3">
+							<label for="cc-number">mail</label>
+							<input type="text" class="form-control" id="cc-number" placeholder="" required>
 						</div>
 					</div>
-					<div class="col-md-6 mb-3">
-						<label for="cc-number">Credit card number</label>
-						<input type="text" class="form-control" id="cc-number" placeholder="" required>
-						<div class="invalid-feedback">
-							Credit card number is required
+					<div class="row">
+						<div class="col-md-12 mb-12">
+							<label for="cc-expiration">Comentarios</label>
+							<input type="text" class="form-control" id="cc-expiration" placeholder="" required>
 						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 mb-12">
-						<label for="cc-expiration">Expiration</label>
-						<input type="text" class="form-control" id="cc-expiration" placeholder="" required>
-						<div class="invalid-feedback">
-							Expiration date required
-						</div>
-					</div>
-				</div>
-				<hr class="mb-4">
-				<button class="btn btn-primary btn-lg btn-block" type="submit">Contactanos</button>
-			</form>
-		</div>
-
-		</div>
-	</div>
-	<div class="jumbotron mainfooter">
-		<footer class="page-footer font-small pt-4 teal">
-			<div class="footer-copyright text-center py-3">© 2018 Copyright:
-				<a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+					<hr class="mb-4">
+					<button class="btn btn-primary btn-lg btn-block" type="submit">Contactanos</button>
+				</form>
 			</div>
-		</footer>
+
+		</div>
 	</div>
 </body>
+<footer class="jumbotron mainfooter bg-info">
+	<div class="container footer">
+		<div class="row no-gutters align-items-center">
+			<div class="col-12 col-sm-6 col-md-8">© 2018 Copyright: Fundación Niño y Cancer - 22170821 - 22170811</div>
+			<div class="col-6 col-md-4 float-none">
+				<img src="images/facebook.jpg" alt="">
+				<img src="images/facebook.jpg" alt="">
+				<img src="images/facebook.jpg" alt="">
+			</div>
+		</div>  
+	</div>
+</footer>
 </html>
