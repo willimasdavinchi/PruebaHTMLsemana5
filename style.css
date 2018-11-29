@@ -33,7 +33,7 @@
 	}
 }
 .content2 {
-	margin-top: 50px;
+	margin-top: 120px;
 }
 .noticias {
 	background-image: url("images/bg1.jpg");
@@ -47,10 +47,19 @@
 .marketing img{
 	max-width: 450px;
 }
-.marketing .col-md-12{
-	padding-bottom: 20px;
+.marketing .col-12{
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 30px;
 }
 .album {
 	padding-right: 48px;
 	padding-left: 48px;
+}
+.blog-post img{
+	width: 100%;
+	height: auto;
+}
+.blog-post {
+	padding-bottom: 20px;
 }
